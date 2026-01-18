@@ -1,0 +1,55 @@
+name: civic_solver
+description: "CivicSolver – Citizen-first complaint management system"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Networking
+  dio: ^5.4.3
+
+  # Secure storage
+  flutter_secure_storage: ^9.2.2
+
+  # Date formatting
+  intl: ^0.19.0
+
+  # UI / Animation
+  lucide_icons: ^0.257.0
+  flutter_animate: ^4.5.0
+  simple_animations: ^5.0.2
+  google_fonts: ^6.2.1
+  shimmer: ^3.0.0
+  glassmorphism_ui: ^0.3.0
+  dotted_border: ^2.1.0
+  file_picker: ^8.0.0
+  flutter_svg: ^2.0.10+1
+
+  # Image Handling
+  image_picker: ^1.0.7
+
+  # OTP
+  pinput: ^5.0.0
+  fl_chart: ^1.1.1
+  shared_preferences: ^2.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+
